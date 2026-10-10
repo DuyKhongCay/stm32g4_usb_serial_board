@@ -1,0 +1,37 @@
+# Build directories
+build/
+bin/
+out/
+
+# CMake cache and generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Compiler artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.obj
+*.d
+*.su
+*.sbr
+
+# Editor and IDE configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Temporary scratch and logs
+*.log
+/tmp/
